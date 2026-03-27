@@ -9,8 +9,10 @@ length = tamanho de um array -quantidade total de elementos (valores/dados) dent
 
 Cada elemento está localizado em uma posição na lista, chamada de índice
 
-
-Metodos de Arrays-----
+array esparso - 
+existem posições vazias (sem valor definido) entre os índices ocupados.
+mesmo add ou removendo um elemento, é respeitado a posição que esta vazia.
+const arrayVazia = [];
 
 Loops-----------------
 
