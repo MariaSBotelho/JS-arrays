@@ -15,5 +15,10 @@ mesmo add ou removendo um elemento, é respeitado a posição que esta vazia.
 const arrayVazia = [];
 
 Loops-----------------
+Laços de repetição
+Utilizadas para percorrer arrays e executar blocos de código para cada elemento.
+Evite loops infinitos- ao colocar quando eles devem parar adequadamente, podem travar o navegador/ computador
+-for
 
 Funçoes callback------
+-For Each
