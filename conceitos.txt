@@ -21,4 +21,8 @@ Evite loops infinitos- ao colocar quando eles devem parar adequadamente, podem t
 -for
 
 Funçoes callback------
--For Each
+função que é “chamada de volta” dentro de outra função
+-For Each precisa de uma função como parametro(obrigatorio),pode chamar também indice como parametro
+para trazer a posição de cada elemento dentro do array
+executa o que esta dentro do dado, não retorna nada
+-Map retorna como uma nova array  
