@@ -26,3 +26,11 @@ função que é “chamada de volta” dentro de outra função
 para trazer a posição de cada elemento dentro do array
 executa o que esta dentro do dado, não retorna nada
 -Map retorna como uma nova array  
+-filter - função callback retorna true or false
+-Reduce- “reduzir” uma lista de números para um único valor.
+parametros (acum, atual) - acumulador e valor atual
+
+const soma = numeros.reduce(function (acum, atual) {
+ return atual + acum
+}, 0)
+

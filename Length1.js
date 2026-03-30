@@ -7,3 +7,9 @@ let notas = [10 , 6.5 , 8 , 7.5];
 let media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length;
 
 console.log(`A média das notas é: ${media}`);
+
+//resolução com reduce
+
+const mediaReduce = notas.reduce((acum, atual) => atual + acum, 0) / notas.length;
+
+console.log(`A média das notas é: ${mediaReduce}`);
