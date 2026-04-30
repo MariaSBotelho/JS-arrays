@@ -10,5 +10,7 @@ console.log(`Lista atualizada: ${lista}`);
 lista.splice(3, 0, 'Clara') //apenas adicionando elemento em lugar especifico do array 
 console.log(`Lista atualizada: ${lista}`);
 
+//indice de onde vai inserir o novo elemnto, quantos elementos quer tirar a partir do indice, elemento que será add
+
 
 //nomes.push('Rodrigo'); //adicionando rodrigo á sala
